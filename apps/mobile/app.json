@@ -6,9 +6,12 @@
     "orientation": "portrait",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
-    "ios": {},
+    "ios": {
+      "bundleIdentifier": "com.eunnn.mobile"
+    },
     "android": {
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.eunnn.mobile"
     },
     "web": {
       "output": "server"
